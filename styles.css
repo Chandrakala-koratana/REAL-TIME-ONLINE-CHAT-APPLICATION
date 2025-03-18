@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login Page */
+.login-container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.login-container input {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-container button {
+    background: #ff5f6d;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-container button:hover {
+    background: #ff9966;
+}
+
+/* Chat Page */
+.chat-container {
+    display: flex;
+    width: 60%;
+    height: 70vh;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+    width: 20%;
+    background: #4a4a4a;
+    color: white;
+    padding: 15px;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+}
+
+.chat-box {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.messages {
+    flex-grow: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background: #f4f4f4;
+    font-size: 14px;
+}
+
+.message {
+    background: #007bff;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    max-width: 65%;
+}
+
+.input-area {
+    display: flex;
+    padding: 8px;
+    background: #ddd;
+}
+
+.input-area input {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-area button {
+    background: #007bff;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input-area button:hover {
+    background: #0056b3;
+}
